@@ -173,3 +173,498 @@ phases:
       cover-function-only: false
       # instrument the file as opposed to the function only
       cover-only: file
+units:
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/hash/LittleEndianByteArray.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/hash/LittleEndianByteArray.java
+   - dir: guava/target/classes
+     file: com/google/common/hash/LittleEndianByteArray$LittleEndianBytes.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/hash/LittleEndianByteArray.java
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/math/StatsAccumulator.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/math/StatsAccumulator.java
+   - dir: guava/target/classes
+     file: com/google/common/primitives/Doubles.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/Doubles.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Preconditions.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Preconditions.java
+   - dir: guava/target/classes
+     file: com/google/common/math/Stats.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/math/Stats.java
+   - dir: guava/target/classes
+     file: com/google/common/math/DoubleUtils.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/math/DoubleUtils.java
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/FluentFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/FluentFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableEnumMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableEnumMap.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractTransformFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractTransformFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$KeySet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/RemovalNotification.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/RemovalNotification.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture$Cancellation.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableEntry.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$LoadingValueReference.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/primitives/Ints.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/Ints.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$LoadingValueReference$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/CollectPreconditions.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/CollectPreconditions.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture$TrustedFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture$Failure.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Stopwatch.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Stopwatch.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Maps.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Maps.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/SingletonImmutableList.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/SingletonImmutableList.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/RemovalListener.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/RemovalListener.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Lists.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Lists.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableCollection.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableCollection.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Supplier.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Supplier.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/SettableFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/SettableFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$AccessQueue$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/Weigher.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/Weigher.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableMap$IteratorBasedImmutableMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableMap.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/Uninterruptibles.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/Uninterruptibles.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$AbstractCacheSet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/base/MoreObjects.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/MoreObjects.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/GwtFluentFutureCatchingSpecialization.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/GwtFluentFutureCatchingSpecialization.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$WriteQueue.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/UncheckedExecutionException.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/UncheckedExecutionException.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/FluentFuture$TrustedFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/FluentFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableMapEntry$NonTerminalImmutableMapEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableMapEntry.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$AccessQueue.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/CacheLoader$UnsupportedLoadingOperationException.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/CacheLoader.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture$Waiter.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Iterables.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Iterables.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/ImmediateFuture$ImmediateSuccessfulFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/ImmediateFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Sets.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Sets.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$EntrySet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableBiMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableBiMap.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/CacheLoader.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/CacheLoader.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/RemovalCause.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/RemovalCause.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/CacheBuilder.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/CacheBuilder.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/ReferenceEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/ReferenceEntry.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/ListenableFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/ListenableFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Iterators.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Iterators.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableBiMapFauxverideShim.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableBiMapFauxverideShim.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/CacheLoader$InvalidCacheLoadException.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/CacheLoader.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$Values.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/Futures.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/Futures.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/AbstractCache$StatsCounter.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/AbstractCache.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableList.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableList.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Ticker.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Ticker.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/AbstractMapEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/AbstractMapEntry.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/ExecutionError.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/ExecutionError.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$Segment$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/ImmediateFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/ImmediateFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractFuture$AtomicHelper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ImmutableMapEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ImmutableMapEntry.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Strings.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Strings.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/SingletonImmutableBiMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/SingletonImmutableBiMap.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Equivalence.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Equivalence.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$2.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$ValueReference.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/MoreExecutors$5.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/MoreExecutors.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$WriteQueue$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$Strength.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/ImmediateFuture$ImmediateFailedFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/ImmediateFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$Segment.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/MoreExecutors.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/MoreExecutors.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$EntryFactory.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/RegularImmutableList.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/RegularImmutableList.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Hashing.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Hashing.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Preconditions.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Preconditions.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/RegularImmutableMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/RegularImmutableMap.java
+   - dir: guava/target/classes
+     file: com/google/common/util/concurrent/AbstractTransformFuture$TransformFuture.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/util/concurrent/AbstractTransformFuture.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/JdkBackedImmutableMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/JdkBackedImmutableMap.java
+   - dir: guava/target/classes
+     file: com/google/common/cache/LocalCache$AbstractReferenceEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/cache/LocalCache.java
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/primitives/ParseRequest.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/ParseRequest.java
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$KeySet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$WeakValueReference.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ForwardingObject.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ForwardingObject.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$EntrySet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$InternalEntryHelper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMaker.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMaker.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$Strength.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ForwardingMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ForwardingMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$SerializationProxy.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$WeakKeyWeakValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$StrongKeyDummyValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/base/MoreObjects.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/MoreObjects.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$WeakValueEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Equivalence.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Equivalence.java
+   - dir: guava/target/classes
+     file: com/google/common/primitives/Ints.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/Ints.java
+   - dir: guava/target/classes
+     file: com/google/common/base/Preconditions.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/base/Preconditions.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/Iterators.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/Iterators.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/ForwardingConcurrentMap.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/ForwardingConcurrentMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$StrongKeyStrongValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$Segment.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$1.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$InternalEntry.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$AbstractSerializationProxy.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$Values.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueEntry$Helper.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+   - dir: guava/target/classes
+     file: com/google/common/collect/MapMakerInternalMap$SafeToArraySet.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/collect/MapMakerInternalMap.java
+ - target:
+   - dir: guava/target/classes
+     file: com/google/common/primitives/UnsignedLongs$ParseOverflowDetection.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/UnsignedLongs.java
+   - dir: guava/target/classes
+     file: com/google/common/primitives/Longs.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/Longs.java
+   - dir: guava/target/classes
+     file: com/google/common/primitives/UnsignedLongs.class
+     sourceDir: guava/src
+     sourceFile: com/google/common/primitives/UnsignedLongs.java
